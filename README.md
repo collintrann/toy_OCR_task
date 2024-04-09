@@ -19,7 +19,7 @@ This problem requires you to digitize the numbers in the `data` folder of this d
 
 ## Setup instructions (YOU EDIT)
 
-Replace this text with instructions for recreating the environment necessary to run your code. 
+install pytesseract and natsort using "pip install pytesseract" and "pip install natsort"
 
 ## Instructions to reproduce the output (YOU EDIT)
 
