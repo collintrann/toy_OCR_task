@@ -23,4 +23,4 @@ install pytesseract, natsort, and pillow using "pip install pytesseract", "pip i
 
 ## Instructions to reproduce the output (YOU EDIT)
 
-The `output.txt` file contained in this repository was generated with the code available in the `code/` folder....
+install required libraries and run ocr_reader.py
