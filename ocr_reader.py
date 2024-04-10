@@ -12,6 +12,7 @@ tesseract_config = '--psm 6 digits -c tessedit_char_whitelist=0123456789.-' # co
 for img in images_folder:
     image = Image.open(img)
     image = image.filter(ImageFilter.SHARPEN)
+    image = image.resize((w*2, h*2))
     text = pytesseract.image_to_string(image, config=tesseract_config)
     f.write(text)
     print(f'Extracted digit from {img}')
